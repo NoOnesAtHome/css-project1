@@ -1,9 +1,14 @@
+.text{
+
+}
+
 .header {
     text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 48px;
 }
 
 ul {
@@ -25,4 +30,28 @@ ul {
     color:  rgb(176, 37, 176);
 }
 
+.text-container {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
 
+.image-1{
+    border-radius: 8px;
+    width: auto;
+    height: 400px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+}
