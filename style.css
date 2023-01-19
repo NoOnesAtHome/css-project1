@@ -2,7 +2,7 @@
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 72px;
 }
@@ -45,6 +45,13 @@ img {
     max-height: 100%;
 }
 
+button {
+    width: 80px;
+    height: 30px;
+    background-color: plum;
+    color: whitesmoke;
+}
+
 .main-text {
     color: rgb(176, 37, 176);
     width: 8em;
@@ -55,11 +62,13 @@ img {
 .sub-text {
     font-size: 18px;
     color: rosybrown;
-    width: 10em;
+    width: 18em;
 }
 
-.text, .button {
+.hero {
+    margin: 20px;
+    gap: 16px;
+    padding: 10px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
 }
