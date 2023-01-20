@@ -1,3 +1,11 @@
+text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #750075;
+}
+
 .header {
     text-decoration: none;
     display: flex;
@@ -16,18 +24,19 @@ ul {
 .left-side {
     font-size: 24px;
     font-weight: bold;
-    color: rgb(176, 37, 176);
+    color: #D67BA8;
     display: flex;
 }
 
 .right-side {
     padding-right: 36px;
     font-size: 18px;
-    color:  rgb(176, 37, 176);
+    color:  #D67BA8;
 }
 
 .text-container {
-    margin-top: 24px;
+    margin-top: 10em;
+    margin-bottom: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +45,7 @@ ul {
 
 .image-1 {
     width: auto;
-    height: 350px;
+    height: 365px;
 }
 
 img {
@@ -46,14 +55,17 @@ img {
 }
 
 button {
-    width: 80px;
-    height: 30px;
-    background-color: plum;
-    color: whitesmoke;
+    width: 90px;
+    height: 32px;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: 800;
+    background-color: #D67BA8;
+    color: white;
 }
 
 .main-text {
-    color: rgb(176, 37, 176);
+    color: #EFD3B5;
     width: 8em;
     font-size: 48px;
     font-weight: bolder;
@@ -61,14 +73,35 @@ button {
 
 .sub-text {
     font-size: 18px;
-    color: rosybrown;
+    color: #EFD3B5;
     width: 18em;
 }
 
 .hero {
     margin: 20px;
+    margin-right: 75px;
     gap: 16px;
     padding: 10px;
     display: flex;
     flex-direction: column;
+}
+
+.header-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #EFD3B5;
+}
+
+.sub-image {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    border: #D67BA8;
+}
+
+.info-container {
+    margin-top: 18em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
