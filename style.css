@@ -24,19 +24,20 @@ ul {
 .left-side {
     font-size: 24px;
     font-weight: bold;
-    color: #D67BA8;
+    color: #5F093D;
     display: flex;
 }
 
 .right-side {
     padding-right: 36px;
     font-size: 18px;
-    color:  #D67BA8;
+    color:  #5F093D;
 }
 
 .text-container {
     margin-top: 10em;
     margin-bottom: auto;
+    padding-bottom: 8em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,7 +61,7 @@ button {
     font-size: 16px;
     border-radius: 8px;
     font-weight: 800;
-    background-color: #D67BA8;
+    background-color: #5F093D;
     color: white;
 }
 
@@ -78,7 +79,6 @@ button {
 }
 
 .hero {
-    margin: 20px;
     margin-right: 75px;
     gap: 16px;
     padding: 10px;
@@ -86,8 +86,13 @@ button {
     flex-direction: column;
 }
 
+.wrapper {
+    margin: -1em;
+    background-color: #D67BA8;
+}
+
 .header-info {
-    margin-top: 5em;
+    margin-top: 2em;
     font-size: 36px;
     font-weight: bolder;
     color: #EFD3B5;
@@ -104,9 +109,11 @@ button {
 }
 
 .info-container {
-    margin-top: 5em;
+    margin-top: 8em;
+    margin-bottom: 14em;
     gap: 54px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -120,3 +127,34 @@ button {
     align-items: center;
     justify-content: center;
 }
+
+.wrapper-q {
+    background-color: #EFD3B5;
+    height: 500px;
+    margin: -1em;
+}
+
+.quote-container {
+    margin: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    color: #5F093D;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.author {
+    color: #5F093D;
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    align-self: flex-end;
+}
+
