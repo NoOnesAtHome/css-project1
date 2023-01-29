@@ -158,3 +158,8 @@ button {
     align-self: flex-end;
 }
 
+.sign-wrapper {
+    background-color: #D67BA8;
+    height: 400px;
+    margin: -1em;
+}
