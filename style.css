@@ -87,7 +87,9 @@ button {
 }
 
 .wrapper {
-    margin: -1em;
+    margin: -.5em;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: #D67BA8;
 }
 
@@ -131,7 +133,7 @@ button {
 .wrapper-q {
     background-color: #EFD3B5;
     height: 500px;
-    margin: -1em;
+    margin: -.5em;
 }
 
 .quote-container {
@@ -161,7 +163,7 @@ button {
 .sign-wrapper {
     background-color: #D67BA8;
     height: 425px;
-    margin: -1em;
+    margin: -.5em;
 }
 
 .box {
